@@ -1,0 +1,22 @@
+body {
+  background: rgb(36,36,0);
+background: radial-gradient(circle, rgba(36,36,0,1) 0%, rgba(222,238,10,1) 0%, rgba(245,255,0,1) 100%);
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 60px;
+}
+.contact__form .form-control {
+  padding: 1.375rem .75rem;
+  line-height: 1.5;
+  color: black;
+  background-color: white;
+  border-radius: 5 !important;
+  border: 1px solid blue;
+}
+.contact__form input .form-control{
+  margin-bottom: 2em;
+  height: calc(2.5em + .75rem + 2px);
+}
+
+.btn:hover{
+  color: green;
+}
